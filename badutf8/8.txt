@@ -1,0 +1,1749 @@
+
+ 
+
+ASCII    |   	Scan Codes and EBCDIC    |   	HTML Codes    |   	Unicode v4
+ASCII Table and Description
+
+ASCII stands for American Standard Code for Information Interchange. Computers can only understand numbers, so an ASCII code is the numerical representation of a character such as 'a' or '@' or an action of some sort. ASCII was developed a long time ago and now the non-printing characters are rarely used for their original purpose. Below is the ASCII character table and this includes descriptions of the first 32 non-printing characters. ASCII was actually designed for use with teletypes and so the descriptions are somewhat obscure. If someone says they want your CV however in ASCII format, all this means is they want 'plain' text with no formatting such as tabs, bold or underscoring - the raw format that any computer can understand. This is usually so they can easily import the file into their own applications without issues. Notepad.exe creates ASCII text, or in MS Word you can save a file as 'text only'
+
+
+
+Extended ASCII Codes
+
+
+
+  Rozšiřte českou Wikipedii! Nejlepší autoři získají netbook!
+ASCII
+ASCII je anglická zkratka pro American Standard Code for Information Interchange („americký standardní kód pro výměnu informací“). V podstatě jde o kódovou tabulku, která definuje znaky anglické abecedy, a jiné znaky používané v informatice. Jde o historicky nejúspěšnější znakovou sadu, z které vychází většina současných standardů pro kódování textu přinejmenším v euro-americké zóně.
+Tabulka obsahuje tisknutelné znaky: písmena, číslice, jiné znaky (závorky, matematické znaky (+ - * / % atd.), interpunkční znaménka (, . : ; atd.), speciální znaky (@ $ ~ atd.)), a řídící (netisknutelné) kódy, které byly původně určeny pro řízení periferních zařízení (např. tiskárny nebo dálnopisu).
+Kód ASCII je podle původní definice sedmibitový, obsahuje tedy 128 platných znaků. Pro potřeby dalších jazyků a pro rozšíření znakové sady se používají osmibitová rozšíření ASCII kódu, která obsahují dalších 128 kódů. Takto rozšířený kód je přesto příliš malý na to, aby pojmul třeba jen evropské národní abecedy. Pro potřeby jednotlivých jazyků byly vytvořeny různé kódové tabulky, význam kódů nad 127 není tedy jednoznačný. Systém kódových tabulek pro národní abecedy vytvořila například organizace ISO.
+Obsah [skrýt]
+1 Osmibitová kódování češtiny
+2 Tabulka ASCII kódů
+3 Popis speciálních a řídicích znaků
+3.1 Fyzické ovládání zařízení
+3.2 Fyzické ovládání zařízení: ostatní
+3.3 Logické řízení komunikace
+3.4 Fyzické řízení komunikace
+3.5 Oddělovače informací
+3.6 Rozšiřování kódu
+4 Escape sekvence
+5 Související články
+6 Externí odkazy
+[editovat]Osmibitová kódování češtiny
+
+kódování	komentář
+Windows-1250	kód používaný firmou Microsoft v operačních systémech Windows pro kódování středoevropských jazyků
+ISO 8859-2	standard ISO, používaný např. v operačním systému Linux
+CP852 (Latin2)	kód stanovený firmou IBM používaný např. v operačním systému DOS. Česká Windows jej dodnes využívají při zadávání speciálních znaků pomocí alt-kódů. Například když stisknete klávesu alt, vyťukáte číslo 248 a klávesu alt pustíte, objeví se na obrazovce znak pro stupeň - °. V tabulce znaků je uveden pod hexadecimálním kódem F8, což je dekadicky 248.
+Kód Kamenických	jiné kódování používané v DOSu pro potřeby češtiny a slovenštiny
+KOI8-ČS	kódování definované v rámci RVHP
+V současnosti se tato 8-bitová rozšíření ASCII postupně nahrazují kódováním Unicode.
+[editovat]Tabulka ASCII kódů
+
+Dec	Hex	Znak	Význam
+0	00	NUL
+1	01	☺	Start of Header (SOH)
+2	02	☻	Start of Text (STX)
+3	03	♥	End of Text (ETX)
+4	04	♦	End of Transmission (EOT)
+5	05	♣	Enquiry (ENQ)
+6	06	♠	Acknowledge (ACK)
+7	07	•	Bell (BEL)
+8	08	◘	Backspace (BS)
+9	09	○	Horizontal Tab (HT)
+10	0a	◙	Line Feed (LF)
+11	0b	VT	Vertical Tab
+12	0c	FF	Form Feed
+13	0d	CR	Carriage Return
+14	0e	SO	Shift Out
+15	0f	SI	Shift In
+16	10	DLE	Data Link Escape
+17	11	DC1	(XOn)
+18	12	DC2
+19	13	DC3	(XOff)
+20	14	DC4
+21	15	NAK	Negative Acknowledge
+22	16	SYN	Synchronous Idle
+23	17	ETB	End of Transmission Block
+24	18	CAN	Cancel
+25	19	EM	End of Medium
+26	1a	SUB	Substitute
+27	1b	ESC	Escape
+28	1c	FS	File Separator
+29	1d	GS	Group Separator
+30	1e	RS	Record Separator
+31	1f	US	Unit Separator
+Dec	Hex	Znak
+32	20	SPC
+33	21	 !
+34	22	"
+35	23	#
+36	24	$
+37	25	 %
+38	26	&
+39	27	'
+40	28	(
+41	29	)
+42	2a	*
+43	2b	+
+44	2c	,
+45	2d	-
+46	2e	.
+47	2f	/
+48	30	0
+49	31	1
+50	32	2
+51	33	3
+52	34	4
+53	35	5
+54	36	6
+55	37	7
+56	38	8
+57	39	9
+58	3a	 :
+59	3b	 ;
+60	3c	<
+61	3d	=
+62	3e	>
+63	3f	 ?
+Dec	Hex	Znak
+64	40	@
+65	41	A
+66	42	B
+67	43	C
+68	44	D
+69	45	E
+70	46	F
+71	47	G
+72	48	H
+73	49	I
+74	4a	J
+75	4b	K
+76	4c	L
+77	4d	M
+78	4e	N
+79	4f	O
+80	50	P
+81	51	Q
+82	52	R
+83	53	S
+84	54	T
+85	55	U
+86	56	V
+87	57	W
+88	58	X
+89	59	Y
+90	5a	Z
+91	5b	[
+92	5c	\
+93	5d	]
+94	5e	^
+95	5f	_
+Dec	Hex	Znak
+96	60	`
+97	61	a
+98	62	b
+99	63	c
+100	64	d
+101	65	e
+102	66	f
+103	67	g
+104	68	h
+105	69	i
+106	6a	j
+107	6b	k
+108	6c	l
+109	6d	m
+110	6e	n
+111	6f	o
+112	70	p
+113	71	q
+114	72	r
+115	73	s
+116	74	t
+117	75	u
+118	76	v
+119	77	w
+120	78	x
+121	79	y
+122	7a	z
+123	7b	{
+124	7c	|
+125	7d	}
+126	7e	~
+127	7f	DEL
+[editovat]Popis speciálních a řídicích znaků
+
+Tyto neviditelné znaky byly určeny pro řízení dálnopisu nebo tiskárny, ale v současnosti se z nich využívá jen poměrně malá část. Nejčastěji používané speciální znaky jsou:
+SPC - space, mezera, „prázdný znak“
+HT - Horizontal Tab - tabulátor
+LF - Line Feed - odřádkování
+CR - Carriage Return - návrat vozíku
+Bohužel, ani pro používání těchto kódů neexistuje všeobecně přijímaný standard. Například operační systémy Unix používají pro odřádkování kód LF, systémy DOS a Windows používají kombinaci CR+LF, systémy firmy Apple používají kód CR. (viz Nový řádek)
+Ostatní speciální znaky se používají například pro definici komunikačních protokolů při komunikaci mezi počítači. Zde je význam speciálních znaků podle původního standardu.
+[editovat]Fyzické ovládání zařízení
+BS: Backspace (návrat o 1 znak zpět)
+HT: Horizontal Tab (tabulátor)
+LF: Line Feed (posun o 1 řádek dolů)
+VT: Vertical Tab (vertikální tabulátor)
+FF: Form Feed (posun na další stránku)
+CR: Carriage Return (návrat tiskové hlavičky na začátek)
+[editovat]Fyzické ovládání zařízení: ostatní
+BEL: Bell - zvonek
+DC1, DC2, DC3, DC4: Device Controls - DC1 a DC2 se používají jako XON and XOFF v softwarovém handshakingu
+[editovat]Logické řízení komunikace
+SOH: Start of Header - začátek hlavičky
+STX: Start of Text - začátek textu
+ETX: End of Text - konec textu
+EOT: End of Transmission - konec vysílání
+ENQ: Enquiry - dotaz (žádost o komunikaci)
+ACK: Acknowledge - potvrzení (připravenosti ke komunikaci)
+DLE: Data Link Escape - používá se pro kódování speciálních znaků
+NAK: Negative Acknowledge - zamítnutí (žádosti o komunikaci)
+SYN: Synchronous Idle
+ETB: End of Transmission Block - konec přenosového bloku
+[editovat]Fyzické řízení komunikace
+NUL: Null - „nic“
+DEL: Delete - smazání
+CAN: Cancel - zrušení
+EM: End of Medium - konec média
+SUB: Substitute - substituce
+[editovat]Oddělovače informací
+FS: File Separator - oddělovač souboru
+GS: Group Separator - oddělovač skupiny
+RS: Record Separator - oddělovač záznamu
+US: Unit Separator - oddělovač jednotek
+[editovat]Rozšiřování kódu
+SI: Shift In
+SO: Shift Out
+ESC: Escape
+[editovat]Escape sekvence
+
+Znak ESC (escape) se používá např. pro definici tzv. escape sekvencí používaných pro rozšíření ASCII kódu pro různé účely. Jeden nebo několik znaků následujících znak ESC nejsou interpretovány jako ASCII kódy, ale mohou mít speciální význam - například mohou definovat novou pozici kurzoru na obrazovce terminálu, nebo mohou definovat velikost fontu používaného tiskárnou, přepnout tiskárnu ze znakového do grafického módu atd.
+Organizace ANSI definovala sekvence určené pro ovládání znakových terminálů. Tyto sekvence zahrnují např. posun kurzoru na určitý řádek a sloupec obrazovky.
+Faktickým standardem pro starší jehličkové tiskárny jsou escape sekvence používané firmou Epson.
+[editovat]Související články
+
+Znaková sada
+Unicode, UTF-8
+ASCII art
+EBCDIC
+Znaková sada ZX Spectrum
+[editovat]Externí odkazy
+
+On-line převod kódování
+Kategorie: Standardy | Počítačová terminologie | Kódování znaků | Zkratky
+Přihlášení / vytvoření účtuČlánekDiskuseČístEditovatZobrazit historii
+
+Hlavní strana
+Portál Wikipedie
+Aktuality
+Pod lípou
+Poslední změny
+Náhodný článek
+Nápověda
+Podpořte Wikipedii
+Tisk/export
+Vytvořit knihu
+Stáhnout jako PDF
+Verze k tisku
+Nástroje
+V jiných jazycích
+Alemannisch
+العربية
+Asturianu
+Български
+বাংলা
+Bosanski
+Català
+کوردی
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+Euskara
+فارسی
+Suomi
+Français
+Gaeilge
+Galego
+עברית
+हिन्दी
+Hrvatski
+Magyar
+Interlingua
+Bahasa Indonesia
+Italiano
+日本語
+Taqbaylit
+한국어
+Ripoarisch
+Kurdî
+Lëtzebuergesch
+Lietuvių
+Latviešu
+Монгол
+मराठी
+Bahasa Melayu
+Plattdüütsch
+नेपाल भाषा
+Nederlands
+‪Norsk (nynorsk)‬
+‪Norsk (bokmål)‬
+Polski
+Português
+Română
+Русский
+Scots
+Simple English
+ASCII
+From Wikipedia, the free encyclopedia
+Not to be confused with Windows-1252, also known as "ANSI".
+This article is about the character encoding. For other uses, see ASCII (disambiguation).
+
+
+
+All 128 ASCII characters including non-printable characters (represented by their abbreviation).
+The 95 ASCII graphic characters are numbered from 0x20 to 0x7E (32 to 126 decimal). The space character is considered a non-printing graphic.[1]
+The American Standard Code for Information Interchange (ASCII, pronounced /ˈæski/ ASS-kee)[2] is a character-encoding scheme based on the ordering of the English alphabet. ASCII codes represent text in computers, communications equipment, and other devices that use text. Most modern character-encoding schemes are based on ASCII, though they support many more characters than did ASCII.
+US-ASCII is the Internet Assigned Numbers Authority (IANA) preferred charset name for ASCII.
+Historically, ASCII developed from telegraphic codes. Its first commercial use was as a seven-bit teleprinter code promoted by Bell data services. Work on ASCII formally began on October 6, 1960, with the first meeting of the American Standards Association's (ASA) X3.2 subcommittee. The first edition of the standard was published during 1963,[3][4] a major revision during 1967,[5] and the most recent update during 1986.[6] Compared to earlier telegraph codes, the proposed Bell code and ASCII were both ordered for more convenient sorting (i.e., alphabetization) of lists, and added features for devices other than teleprinters.
+ASCII includes definitions for 128 characters: 33 are non-printing control characters (now mostly obsolete)[7] that affect how text and space is processed;[8] 94 are printable characters, and the space is considered an invisible graphic.[9] The most commonly used character encoding on the World Wide Web was US-ASCII[10] until December 2007, when it was surpassed by UTF-8.[11][12][13]
+Contents [hide]
+1 History
+2 ASCII control characters
+3 ASCII printable characters
+4 Aliases
+5 Variants
+5.1 Incompatibility vs interoperability
+5.2 Unicode
+6 Order
+7 See also
+8 References
+9 Further reading
+10 External links
+[edit]History
+
+
+
+The US ASCII 1968 Code Chart was structured with two columns of control characters, a column with special characters, a column with numbers, and four columns of letters
+The American Standard Code for Information Interchange (ASCII) was developed under the auspices of a committee of the American Standards Association, called the X3 committee, by its X3.2 (later X3L2) subcommittee, and later by that subcommittee's X3.2.4 working group. The ASA became the United States of America Standards Institute or USASI[14] and ultimately the American National Standards Institute.
+The X3.2 subcommittee designed ASCII based on earlier teleprinter encoding systems. Like other character encodings, ASCII specifies a correspondence between digital bit patterns and character symbols (i.e. graphemes and control characters). This allows digital devices to communicate with each other and to process, store, and communicate character-oriented information such as written language. Before ASCII was developed, the encodings in use included 26 alphabetic characters, 10 numerical digits, and from 11 to 25 special graphic symbols. To include all these, and control characters compatible with the Comité Consultatif International Téléphonique et Télégraphique standard, Fieldata, and early EBCDIC, more than 64 codes were required for ASCII.
+The committee debated the possibility of a shift key function (like the Baudot code), which would allow more than 64 codes to be represented by six bits. In a shifted code, some character codes determine choices between options for the following character codes. It allows compact encoding, but is less reliable for data transmission; an error in transmitting the shift code typically makes a long part of the transmission unreadable. The standards committee decided against shifting, and so ASCII required at least a seven-bit code.[15]
+The committee considered an eight-bit code, since eight bits would allow two four-bit patterns to efficiently encode two digits with binary coded decimal. However, it would require all data transmission to send eight bits when seven could suffice. The committee voted to use a seven-bit code to minimize costs associated with data transmission. Since perforated tape at the time could record eight bits in one position, it also allowed for a parity bit for error checking if desired.[16] Machines with octets as the native data type that did not use parity checking typically set the eighth bit to 0.[17]
+The code itself was patterned so that most control codes were together, and all graphic codes were together, for ease of identification. The first two columns (32 positions) were reserved for control characters.[18] The "space" character had to come before graphics to make sorting easier, so it became position 0x20;[19] for the same reason, many special signs commonly-used as separators were placed before digits. The committee decided it was important to support upper case 64-character alphabets, and chose to pattern ASCII so it could be reduced easily to a usable 64-character set of graphic codes.[20] Lower case letters were therefore not interleaved with upper case. To keep options available for lower case letters and other graphics, the special and numeric codes were arranged before the letters, and the letter 'A' was placed in position 0x41 to match the draft of the corresponding British standard.[21] The digits 0–9 were arranged so they correspond to values in binary prefixed with 011, making conversion with binary-coded decimal straightforward.
+Many of the non-alphanumeric characters were positioned to correspond to their shifted position on typewriters. Thus #, $ and % were placed to correspond to 3, 4, and 5 in the adjacent column. The parentheses could not correspond to 9 and 0, however, because the place corresponding to 0 was taken by the space character. Since many European typewriters placed the parentheses with 8 and 9, those corresponding positions were chosen for the parentheses. The @ symbol was not used in continental Europe and the committee expected it would be replaced by an accented À in the French variation, so the @ was placed in position 0x40 next to the letter A.[22]
+The control codes felt essential for data transmission were the start of message (SOM), end of address (EOA), end of message (EOM), end of transmission (EOT), "who are you?" (WRU), "are you?" (RU), a reserved device control (DC0), synchronous idle (SYNC), and acknowledge (ACK). These were positioned to maximize the Hamming distance between their bit patterns.[23]
+With the other special characters and control codes filled in, ASCII was published as ASA X3.4-1963, leaving 28 code positions without any assigned meaning, reserved for future standardization, and one unassigned control code.[24] There was some debate at the time whether there should be more control characters rather than the lower case alphabet.[25] The indecision did not last long: during May 1963 the CCITT Working Party on the New Telegraph Alphabet proposed to assign lower case characters to columns 6 and 7,[26] and International Organization for Standardization TC 97 SC 2 voted during October to incorporate the change into its draft standard.[27] The X3.2.4 task group voted its approval for the change to ASCII at its May 1963 meeting.[28] Locating the lowercase letters in columns 6 and 7 caused the characters to differ in bit pattern from the upper case by a single bit, which simplified case-insensitive character matching and the construction of keyboards and printers.
+The X3 committee made other changes, including other new characters (the brace and vertical line characters),[29] renaming some control characters (SOM became start of header (SOH)) and moving or removing others (RU was removed).[30] ASCII was subsequently updated as USASI X3.4-1967, then USASI X3.4-1968, ANSI X3.4-1977, and finally, ANSI X3.4-1986 (the first two are occasionally retronamed ANSI X3.4-1967, and ANSI X3.4-1968).
+The X3 committee also addressed how ASCII should be transmitted (least significant bit first), and how it should be recorded on perforated tape. They proposed a 9-track standard for magnetic tape, and attempted to deal with some forms of punched card formats.
+ASCII itself was first used commercially during 1963 as a seven-bit teleprinter code for American Telephone & Telegraph's TWX (Teletype Wide-area eXchange) network. TWX originally used the earlier five-bit Baudot code, which was also used by the competing Telex teleprinter system. Bob Bemer introduced features such as the escape sequence.[3] His British colleague Hugh McGregor Ross helped to popularize this work—according to Bemer, "so much so that the code that was to become ASCII was first called the Bemer-Ross Code in Europe".[31] Because of his extensive work on ASCII, Bemer has been called "the father of ASCII."[32]
+On March 11, 1968, U.S. President Lyndon B. Johnson mandated that all computers purchased by the United States federal government support ASCII, stating:
+I have also approved recommendations of the Secretary of Commerce regarding standards for recording the Standard Code for Information Interchange on magnetic tapes and paper tapes when they are used in computer operations. All computers and related equipment configurations brought into the Federal Government inventory on and after July 1, 1969, must have the capability to use the Standard Code for Information Interchange and the formats prescribed by the magnetic tape and paper tape standards when these media are used.[33]
+Other international standards bodies have ratified character encodings such as ISO/IEC 646 that are identical or nearly identical to ASCII, with extensions for characters outside the English alphabet and symbols used outside the United States, such as the symbol for the United Kingdom's pound sterling (£). Almost every country needed an adapted version of ASCII since ASCII only suited the needs of the USA and a few other countries. For example, Canada had its own version that supported French characters. Other adapted encodings include ISCII (India), VISCII (Vietnam), and YUSCII (Yugoslavia). Although these encodings are sometimes referred to as ASCII, true ASCII is defined strictly only by ANSI standard.
+ASCII was incorporated into the Unicode character set as the first 128 symbols, so the ASCII characters have the same numeric codes in both sets. This allows UTF-8 to be backward compatible with ASCII, a significant advantage.
+[edit]ASCII control characters
+
+Main article: Control character
+ASCII reserves the first 32 codes (numbers 0–31 decimal) for control characters: codes originally intended not to represent printable information, but rather to control devices (such as printers) that make use of ASCII, or to provide meta-information about data streams such as those stored on magnetic tape. For example, character 10 represents the "line feed" function (which causes a printer to advance its paper), and character 8 represents "backspace". RFC 2822 refers to control characters that do not include carriage return, line feed or white space as non-whitespace control characters.[34] Except for the control characters that prescribe elementary line-oriented formatting, ASCII does not define any mechanism for describing the structure or appearance of text within a document. Other schemes, such as markup languages, address page and document layout and formatting.
+The original ASCII standard used only short descriptive phrases for each control character. The ambiguity this caused was sometimes intentional (where a character would be used slightly differently on a terminal link than on a data stream) and sometimes accidental (such as what "delete" means).
+Probably the most influential single device on the interpretation of these characters was the ASR-33 Teletype series, which was a printing terminal with an available paper tape reader/punch option. Paper tape was a very popular medium for long-term program storage through the 1980s, less costly and in some ways less fragile than magnetic tape. In particular, the Teletype 33 machine assignments for codes 17 (Control-Q, DC1, also known as XON), 19 (Control-S, DC3, also known as XOFF), and 127 (Delete) became de facto standards. Because the keytop for the O key also showed a left-arrow symbol (from ASCII-1963, which had this character instead of underscore), a noncompliant use of code 15 (Control-O, Shift In) interpreted as "delete previous character" was also adopted by many early timesharing systems but eventually became neglected.
+The use of Control-S (XOFF, an abbreviation for transmit off) as a "handshaking" signal warning a sender to stop transmission because of impending overflow, and Control-Q (XON, "transmit on") to resume sending, persists to this day in many systems as a manual output control technique. On some systems Control-S retains its meaning but Control-Q is replaced by a second Control-S to resume output.
+Code 127 is officially named "delete" but the Teletype label was "rubout". Since the original standard did not give detailed interpretation for most control codes, interpretations of this code varied. The original Teletype meaning, and the intent of the standard, was to make it an ignored character, the same as NUL (all zeroes). This was useful specifically for paper tape, because punching the all-ones bit pattern on top of an existing mark would obliterate it. Tapes designed to be "hand edited" could even be produced with spaces of extra NULs (blank tape) so that a block of characters could be "rubbed out" and then replacements put into the empty space.
+As video terminals began to replace printing ones, the value of the "rubout" character was lost. DEC systems, for example, interpreted "Delete" to mean "remove the character before the cursor," and this interpretation also became common in Unix systems. Most other systems used "Backspace" for that meaning and used "Delete" to mean "remove the character at the cursor". That latter interpretation is the most common now.
+Many more of the control codes have been given meanings quite different from their original ones. The "escape" character (ESC, code 27), for example, was intended originally to allow sending other control characters as literals instead of invoking their meaning. This is the same meaning of "escape" encountered in URL encodings, C language strings, and other systems where certain characters have a reserved meaning. Over time this meaning has been co-opted and has eventually been changed. In modern use, an ESC sent to the terminal usually indicates the start of a command sequence, usually in the form of a so-called "ANSI escape code" (or, more properly, a "Control Sequence Introducer") beginning with ESC followed by a "[" (left-bracket) character. An ESC sent from the terminal is most often used as an out-of-band character used to terminate an operation, as in the TECO and vi text editors. In graphical user interface (GUI) and windowing systems, ESC generally causes an application to abort its current operation or to exit (terminate) altogether.
+The inherent ambiguity of many control characters, combined with their historical usage, created problems when transferring "plain text" files between systems. The best example of this is the newline problem on various operating systems. Teletypes required that a line of text be terminated with both "Carriage Return" and "Linefeed". The first returns the printing carriage to the beginning of the line and the second advances to the next line without moving the carriage. However, requiring two characters to mark the end of a line introduced unnecessary complexity and questions as to how to interpret each character when encountered alone. To simplify matters, plain text files on Unix and Amiga systems use line feeds alone to separate lines. Similarly, older Macintosh systems, among others, use only carriage returns in plain text files. Various IBM operating systems used both characters to mark the end of a line, perhaps for compatibility with teletypes. This de facto standard was copied into CP/M and then into MS-DOS and eventually into Microsoft Windows. Transmission of text over the Internet, for protocols as E-mail and the World Wide Web, uses both characters.
+Some operating systems such as the pre-VMS DEC operating systems, along with CP/M, tracked file length only in units of disk blocks and used Control-Z (SUB) to mark the end of the actual text in the file. For this reason, EOF, or end-of-file, was used colloquially and conventionally as a TLA for Control-Z instead of SUBstitute. For a variety of reasons, the end-of-text code, ETX aka Control-C, was inappropriate and using Z as the control code to end a file is analogous to it ending the alphabet, a very convenient mnemonic aid. Text strings ending with the null character are known as ASCIZ, ASCIIZ or C strings.
+Binary	Oct	Dec	Hex	Abbr	[a]	[b]	[c]	Description
+000 0000	000	0	00	NUL	␀	^@	\0	Null character
+000 0001	001	1	01	SOH	␁	^A		Start of Header
+000 0010	002	2	02	STX	␂	^B		Start of Text
+000 0011	003	3	03	ETX	␃	^C		End of Text
+000 0100	004	4	04	EOT	␄	^D		End of Transmission
+000 0101	005	5	05	ENQ	␅	^E		Enquiry
+000 0110	006	6	06	ACK	␆	^F		Acknowledgment
+000 0111	007	7	07	BEL	␇	^G	\a	Bell
+000 1000	010	8	08	BS	␈	^H	\b	Backspace[d][e]
+000 1001	011	9	09	HT	␉	^I	\t	Horizontal Tab[f]
+000 1010	012	10	0A	LF	␊	^J	\n	Line feed
+000 1011	013	11	0B	VT	␋	^K	\v	Vertical Tab
+000 1100	014	12	0C	FF	␌	^L	\f	Form feed
+000 1101	015	13	0D	CR	␍	^M	\r	Carriage return[g]
+000 1110	016	14	0E	SO	␎	^N		Shift Out
+000 1111	017	15	0F	SI	␏	^O		Shift In
+001 0000	020	16	10	DLE	␐	^P		Data Link Escape
+001 0001	021	17	11	DC1	␑	^Q		Device Control 1 (oft. XON)
+001 0010	022	18	12	DC2	␒	^R		Device Control 2
+001 0011	023	19	13	DC3	␓	^S		Device Control 3 (oft. XOFF)
+001 0100	024	20	14	DC4	␔	^T		Device Control 4
+001 0101	025	21	15	NAK	␕	^U		Negative Acknowledgement
+001 0110	026	22	16	SYN	␖	^V		Synchronous idle
+001 0111	027	23	17	ETB	␗	^W		End of Transmission Block
+001 1000	030	24	18	CAN	␘	^X		Cancel
+001 1001	031	25	19	EM	␙	^Y		End of Medium
+001 1010	032	26	1A	SUB	␚	^Z		Substitute
+001 1011	033	27	1B	ESC	␛	^[	\e[h]	Escape[i]
+001 1100	034	28	1C	FS	␜	^\		File Separator
+001 1101	035	29	1D	GS	␝	^]		Group Separator
+001 1110	036	30	1E	RS	␞	^^[j]		Record Separator
+001 1111	037	31	1F	US	␟	^_		Unit Separator
+111 1111	177	127	7F	DEL	␡	^?		Delete[k][e]
+^ The Unicode characters from the area U+2400 to U+2421 reserved for representing control characters when it is necessary to print or display them rather than have them perform their intended function. Some browsers may not display these properly.
+^ Caret notation often used to represent control characters. This also indicates the key sequence to input the character traditionally on most text terminals: The caret (^) that begins these sequences represents holding down the "Ctrl" key while typing the second character.
+^ Character Escape Codes in C programming language and many other languages influenced by it, such as Java and Perl (though not all implementations necessarily support all escape codes).
+^ The Backspace character can also be entered by pressing the "Backspace", "Bksp", or ← key on some systems.
+^ a b The ambiguity of Backspace is due to early terminals designed assuming the main use of the keyboard would be to manually punch paper tape while not connected to a computer. To delete the previous character you had to back up the paper tape punch, which for mechanical and simplicity reasons was a button on the punch itself and not the keyboard, then type the rubout character. They therefore placed a key producing rubout at the location used on typewriters for backspace. When systems used these terminals and provided command-line editing, they had to use the "rubout" code to perform a backspace, and often did not interpret the backspace character (they might echo "^H" for backspace). Other terminals not designed for paper tape made the key at this location produce Backspace, and systems designed for these used that character to back up. Since the delete code often produced a backspace effect, this also forced terminal manufacturers to make any "Delete" key produce something other than the Delete character.
+^ The Tab character can also be entered by pressing the "Tab" key on most systems.
+^ The Carriage Return character can also be entered by pressing the "Return", "Ret", "Enter", or ↵ key on most systems.
+^ The '\e' escape sequence is not part of ISO C and many other language specifications. However, it is understood by several compilers.
+^ The Escape character can also be entered by pressing the "Escape" or "Esc" key on some systems.
+^ ^^ means Control-Caret (pressing the "Ctrl" and "^" keys), not Control-Control.
+^ The Delete character can sometimes be entered by pressing the "Backspace", "Bksp", or ← key on some systems.
+[edit]ASCII printable characters
+
+Codes 0x20 to 0x7E, known as the printable characters, represent letters, digits, punctuation marks, and a few miscellaneous symbols.
+Code 0x20, the space character, denotes the space between words, as produced by the space-bar of a keyboard. Since the space character is considered an invisible graphic (rather than a control character)[9] and thus would not normally be visible, it is represented here by Unicode character U+2420 "␠"; Unicode characters U+2422 "␢" or U+2423 "␣" are also available for use when a visible representation of a space is necessary.
+Code 0x7F corresponds to the non-printable "Delete" (DEL) control character and is therefore omitted from this chart; it is covered in the previous section's chart.
+Binary	Oct	Dec	Hex	Glyph
+010 0000	040	32	20	␠
+010 0001	041	33	21	!
+010 0010	042	34	22	"
+010 0011	043	35	23	#
+010 0100	044	36	24	$
+010 0101	045	37	25	%
+010 0110	046	38	26	&
+010 0111	047	39	27	'
+010 1000	050	40	28	(
+010 1001	051	41	29	)
+010 1010	052	42	2A	*
+010 1011	053	43	2B	+
+010 1100	054	44	2C	,
+010 1101	055	45	2D	-
+010 1110	056	46	2E	.
+010 1111	057	47	2F	/
+011 0000	060	48	30	0
+011 0001	061	49	31	1
+011 0010	062	50	32	2
+011 0011	063	51	33	3
+011 0100	064	52	34	4
+011 0101	065	53	35	5
+011 0110	066	54	36	6
+011 0111	067	55	37	7
+011 1000	070	56	38	8
+011 1001	071	57	39	9
+011 1010	072	58	3A	:
+011 1011	073	59	3B	;
+011 1100	074	60	3C	<
+011 1101	075	61	3D	=
+011 1110	076	62	3E	>
+011 1111	077	63	3F	?
+Binary	Oct	Dec	Hex	Glyph
+100 0000	100	64	40	@
+100 0001	101	65	41	A
+100 0010	102	66	42	B
+100 0011	103	67	43	C
+100 0100	104	68	44	D
+100 0101	105	69	45	E
+100 0110	106	70	46	F
+100 0111	107	71	47	G
+100 1000	110	72	48	H
+100 1001	111	73	49	I
+100 1010	112	74	4A	J
+100 1011	113	75	4B	K
+100 1100	114	76	4C	L
+100 1101	115	77	4D	M
+100 1110	116	78	4E	N
+100 1111	117	79	4F	O
+101 0000	120	80	50	P
+101 0001	121	81	51	Q
+101 0010	122	82	52	R
+101 0011	123	83	53	S
+101 0100	124	84	54	T
+101 0101	125	85	55	U
+101 0110	126	86	56	V
+101 0111	127	87	57	W
+101 1000	130	88	58	X
+101 1001	131	89	59	Y
+101 1010	132	90	5A	Z
+101 1011	133	91	5B	[
+101 1100	134	92	5C	\
+101 1101	135	93	5D	]
+101 1110	136	94	5E	^
+101 1111	137	95	5F	_
+Binary	Oct	Dec	Hex	Glyph
+110 0000	140	96	60	`
+110 0001	141	97	61	a
+110 0010	142	98	62	b
+110 0011	143	99	63	c
+110 0100	144	100	64	d
+110 0101	145	101	65	e
+110 0110	146	102	66	f
+110 0111	147	103	67	g
+110 1000	150	104	68	h
+110 1001	151	105	69	i
+110 1010	152	106	6A	j
+110 1011	153	107	6B	k
+110 1100	154	108	6C	l
+110 1101	155	109	6D	m
+110 1110	156	110	6E	n
+110 1111	157	111	6F	o
+111 0000	160	112	70	p
+111 0001	161	113	71	q
+111 0010	162	114	72	r
+111 0011	163	115	73	s
+111 0100	164	116	74	t
+111 0101	165	117	75	u
+111 0110	166	118	76	v
+111 0111	167	119	77	w
+111 1000	170	120	78	x
+111 1001	171	121	79	y
+111 1010	172	122	7A	z
+111 1011	173	123	7B	{
+111 1100	174	124	7C	|
+111 1101	175	125	7D	}
+111 1110	176	126	7E	~
+[edit]Aliases
+
+A June 1992 RFC[35] and the Internet Assigned Numbers Authority registry of character sets[10] recognize the following case-insensitive aliases for ASCII as suitable for use on the Internet:
+ANSI_X3.4-1968 (canonical name)
+iso-ir-6
+ANSI_X3.4-1986
+ISO_646.irv:1991
+ASCII (with ASCII-7 and ASCII-8 variants)
+ISO646-US
+US-ASCII (preferred MIME name)[10]
+us
+IBM367
+cp367
+csASCII
+Of these, the IANA encourages use of the name "US-ASCII" for Internet uses of ASCII. One often finds this in the optional "charset" parameter in the Content-Type header of some MIME messages, in the equivalent "meta" element of some HTML documents, and in the encoding declaration part of the prologue of some XML documents.
+[edit]Variants
+
+As computer technology spread throughout the world, different standards bodies and corporations developed many variations of ASCII to facilitate the expression of non-English languages that used Roman-based alphabets. One could class some of these variations as "ASCII extensions", although some misuse that term to represent all variants, including those that do not preserve ASCII's character-map in the 7-bit range.
+The PETSCII code Commodore International used for their 8-bit systems is probably unique among post-1970 codes in being based on ASCII-1963, instead of the more common ASCII-1967, such as found on the ZX Spectrum computer. Atari and Galaksija computers also used ASCII variants.
+[edit]Incompatibility vs interoperability
+From early in its development,[36] ASCII was intended to be just one of several national variants of an international character code standard, ultimately published as ISO/IEC 646 (1972), which would share most characters in common but assign other locally-useful characters to several code points reserved for "national use." However, the four years that elapsed between the publication of ASCII-1963 and ISO's first acceptance of an international recommendation during 1967[37] caused ASCII's choices for the national use characters to seem to be de facto standards for the world, causing confusion and incompatibility once other countries did begin to make their own assignments to these code points.
+ISO/IEC 646, like ASCII, was a 7-bit character set. It did not make any additional codes available, so the same code points encoded different characters in different countries. Escape codes were defined to indicate which national variant applied to a piece of text, but they were rarely used, so it was often impossible to know what variant to work with and therefore which character a code represented, and text-processing systems could generally cope with only one variant anyway.
+Because the bracket and brace characters of ASCII were assigned to "national use" code points that were used for accented letters in other national variants of ISO/IEC 646, a German, French, or Swedish, etc., programmer using their national variant of ISO/IEC 646, rather than ASCII, had to write, and thus read, something such as
+ä aÄiÜ='Ön'; ü
+instead of
+{ a[i]='\n'; }
+C trigraphs were created to solve this problem for ANSI C, although their late introduction and inconsistent implementation in compilers limited their use.
+Eventually, as 8-, 16-, and 32-bit computers began to replace 18- and 36-bit computers as the norm, it became common to use an 8-bit byte to store each character in memory, providing an opportunity for extended, 8-bit, relatives of ASCII, with the 128 additional characters providing room to avoid most of the ambiguity that had been necessary in 7-bit codes.
+For example, IBM developed 8-bit code pages, such as code page 437, which replaced the control-characters with graphic symbols such as smiley faces, and mapped additional graphic characters to the upper 128 positions. Operating systems such as DOS supported these code-pages, and manufacturers of IBM PCs supported them in hardware. Digital Equipment Corporation developed the Multinational Character Set (DEC-MCS) for use in the popular VT220 terminal.
+Eight-bit standards such as ISO/IEC 8859 (derived from the DEC-MCS) and Mac OS Roman developed as true extensions of ASCII, leaving the original character-mapping intact, but adding additional character definitions after the first 128 (i.e., 7-bit) characters. This enabled representation of characters used in a broader range of languages. Because there were several competing 8-bit code standards, they continued to suffer from incompatibilities and limitations. Still, ISO-8859-1 (Latin 1), its variant Windows-1252 (often mislabeled as ISO-8859-1), and the original 7-bit ASCII remain the most common character encodings in use today.
+[edit]Unicode
+Unicode and the ISO/IEC 10646 Universal Character Set (UCS) have a much wider array of characters, and their various encoding forms have begun to supplant ISO/IEC 8859 and ASCII rapidly in many environments. While ASCII is limited to 128 characters, Unicode and the UCS support more characters by separating the concepts of unique identification (using natural numbers called code points) and encoding (to 8-, 16- or 32-bit binary formats, called UTF-8, UTF-16 and UTF-32).
+To allow backward compatibility, the 128 ASCII and 256 ISO-8859-1 (Latin 1) characters are assigned Unicode/UCS code points that are the same as their codes in the earlier standards. Therefore, ASCII can be considered a 7-bit encoding scheme for a very small subset of Unicode/UCS, and, conversely, the UTF-8 encoding forms are binary-compatible with ASCII for code points below 128, meaning all ASCII is valid UTF-8. The other encoding forms resemble ASCII in how they represent the first 128 characters of Unicode, but use 16 or 32 bits per character, so they require conversion for compatibility. (similarly UCS-2 is upwards compatible with UTF-16)
+[edit]Order
+
+ASCII-code order is also called ASCIIbetical order.[38] Collation of data is sometimes done in this order rather than "standard" alphabetical order (collating sequence). The main deviations in ASCII order are:
+All uppercase come before lowercase letters, i.e. "Z" before "a"
+Digits and many punctuation marks come before letters, i.e. "4" is before "one"
+An intermediate order which can easily be programmed on a computer converts uppercase letters to lowercase before comparing ASCII values.
+[edit]See also
+
+3568 ASCII, an asteroid named after the character encoding
+ASCII art
+Extended ASCII
+HTML decimal character rendering
+[edit]References
+
+^ "RFC 20 : ASCII format for Network Interchange", ANSI X3.4-1968, October 16, 1969.
+^ Audio pronunciation for ASCII. Merriam Webster. Accessed 2008-04-14.
+^ a b Mary Brandel (July 6, 1999). 1963: The Debut of ASCII: CNN. Accessed 2008-04-14.
+^ American Standard Code for Information Interchange, ASA X3.4-1963, American Standards Association, June 17, 1963
+^ USA Standard Code for Information Interchange, USAS X3.4-1967, United States of America Standards Institute, July 7, 1967
+^ American National Standard for Information Systems — Coded Character Sets — 7-Bit American National Standard Code for Information Interchange (7-Bit ASCII), ANSI X3.4-1986, American National Standards Institute, Inc., March 26, 1986
+^ Maini, Anil Kumar (2007). Digital Electronics: Principles, Devices and Applications. John Wiley and Sons. p. 28. ISBN 9780470032145. "In addition, it defines codes for 33 nonprinting, mostly obsolete control characters that affect how the text is processed."
+^ International Organization for Standardization (December 1, 1975). "The set of control characters for ISO 646". Internet Assigned Numbers Authority Registry. Alternate U.S. version: [1]. Accessed 2008-04-14.
+^ a b Mackenzie, p.223.
+^ a b c Internet Assigned Numbers Authority (May 14, 2007). "Character Sets". Accessed 2008-04-14.
+^ Dubost, Karl (May 6, 2008). "utf-8 Growth On The Web". W3C Blog. World Wide Web Consortium. Retrieved 2010-08-15.
+^ Davis, Mark (May 5, 2008). "Moving to Unicode 5.1". Official Google Blog. Google. Retrieved 2010-08-15.
+^ Davis, Mark (Jan 28, 2010). "Unicode nearing 50% of the web". Official Google Blog. Google. Retrieved 2010-08-15.
+^ Mackenzie, p.211.
+^ Decision 4. Mackenzie, p.215.
+^ Decision 5. Mackenzie, p.217.
+^ Sawyer A. Sawyer and Steven George Krantz (January 1, 1995). A Tex Primer for Scientists. CRC Press. ISBN 0-8493-7159-7. p.13.
+^ Decision 8,9. Mackenzie, p.220.
+^ Decision 10. Mackenzie, p.237.
+^ Decision 14. Mackenzie, p.228.
+^ Decision 18. Mackenzie, p.238.
+^ Mackenzie, p.243.
+^ Mackenzie, p.243-245.
+^ Mackenzie, p.66, 245.
+^ Mackenzie, p.435.
+^ Brief Report: Meeting of CCITT Working Party on the New Telegraph Alphabet, May 13–15, 1963.
+^ Report of ISO/TC/97/SC 2 – Meeting of October 29–31, 1963.
+^ Report on Task Group X3.2.4, June 11, 1963, Pentagon Building, Washington, DC.
+^ Report of Meeting No. 8, Task Group X3.2.4, December 17 and 18, 1963
+^ Mackenzie, p.247–248.
+^ Bob Bemer (n.d.). Bemer meets Europe. Trailing-edge.com. Accessed 2008-04-14. Employed at IBM at that time
+^ "Biography of Robert William Bemer".
+^ Lyndon B. Johnson (March 11, 1968). Memorandum Approving the Adoption by the Federal Government of a Standard Code for Information Interchange. The American Presidency Project. Accessed 2008-04-14.
+^ RFC 2822 (April 2001). "NO-WS-CTL".
+^ RFC 1345 (June 1992).
+^ "Specific Criteria," attachment to memo from R. W. Reach, "X3-2 Meeting – September 14 and 15," September 18, 1961
+^ R. Maréchal, ISO/TC 97 – Computers and Information Processing: Acceptance of Draft ISO Recommendation No. 1052, December 22, 1967
+^ ASCIIbetical definition. PC Magazine. Accessed 2008-04-14.
+[edit]Further reading
+
+Bemer, R. W. (1960). "A Proposal for Character Code Compatibility". Communications of the ACM 3 (2): 71–72.
+Bemer, R. W. (May 23, 2003). "The Babel of Codes Prior to ASCII: The 1960 Survey of Coded Character Sets: The Reasons for ASCII". (from H.J. Smith, Jr., F.A. Williams, "Survey of punched card codes", Communications of the ACM 3, 639 & 642, December 1960)
+Robinson, G. S.; Cargill, C. (1996). "History and impact of computer standards". Computer 29 (10): 79–85.
+American National Standards Institute, et al. (1977). American National Standard Code for Information Interchange. The Institute.
+Mackenzie, Charles E. (1980). Coded Character Sets, History and Development. Addison-Wesley. ISBN 0-201-14460-3.
+[edit]External links
+
+A history of ASCII, its roots and predecessors by Tom Jennings (October 29, 2004) (accessed 2005-12-17)
+The ASCII subset of Unicode
+The Evolution of Character Codes, 1874–1968
+Scanned copy of American Standard Code for Information Interchange ASA standard X3.4-1963
+ASCII at the Open Directory Project
+[hide]v · d · eCharacter encodings
+Category:Character sets
+Early telecommunications	
+ASCII · ISO/IEC 646 · ISO/IEC 6937 · T.61 · sixbit code pages · Baudot code · Morse code
+ISO/IEC 8859	
+-1 · -2 · -3 · -4 · -5 · -6 · -7 · -8 · -9 · -10 · -11 · -12 · -13 · -14 · -15 · -16
+Bibliographic use	
+ANSEL · ISO 5426 / 5426-2 / 5427 / 5428 / 6438 / 6861 / 6862 / 10585 / 10586 / 10754 / 11822 · MARC-8
+National standards	
+ArmSCII · CNS 11643 · GOST 10859 · GB 2312 · HKSCS · ISCII · JIS X 0201 · JIS X 0208 · JIS X 0212 · JIS X 0213 · KPS 9566 · KS X 1001 · PASCII · TIS-620 · TSCII · VISCII · YUSCII
+EUC	
+CN · JP · KR · TW
+ISO/IEC 2022	
+CN · JP · KR · CCCII
+MacOS codepages ("scripts")	
+Arabic · CentralEurRoman · ChineseSimp / EUC-CN · ChineseTrad / Big5 · Croatian · Cyrillic · Devanagari · Dingbats · Farsi · Greek · Gujarati · Gurmukhi · Hebrew · Icelandic · Japanese / ShiftJIS · Korean / EUC-KR · Roman · Romanian · Symbol · Thai / TIS-620 · Turkish · Ukrainian
+DOS codepages	
+437 · 720 · 737 · 775 · 850 · 852 · 855 · 857 · 858 · 860 · 861 · 862 · 863 · 864 · 865 · 866 · 869 · Kamenický · Mazovia · MIK · Iran System
+Windows codepages	
+874 / TIS-620 · 932 / ShiftJIS · 936 / GBK · 949 / EUC-KR · 950 / Big5 · 1250 · 1251 · 1252 · 1253 · 1254 · 1255 · 1256 · 1257 · 1258 · 1361 · 54936 / GB18030
+EBCDIC codepages	
+37/1140 · 273/1141 · 277/1142 · 278/1143 · 280/1144 · 284/1145 · 285/1146 · 297/1147 · 420/16804 · 424/12712 · 500/1148 · 838/1160 · 871/1149 · 875/9067 · 930/1390 · 933/1364 · 937/1371 · 935/1388 · 939/1399 · 1025/1154 · 1026/1155 · 1047/924 · 1112/1156 · 1122/1157 · 1123/1158 · 1130/1164 · JEF · KEIS
+Platform specific	
+ATASCII · CDC display code · DEC-MCS · DEC Radix-50 · Fieldata · GSM 03.38 · HP roman8 · PETSCII · TI calculator character sets · ZX Spectrum character set
+Unicode / ISO/IEC 10646	
+UTF-8 · UTF-16/UCS-2 · UTF-32/UCS-4 · UTF-7 · UTF-EBCDIC · GB 18030 · SCSU · BOCU-1
+Miscellaneous codepages	
+APL · Cork · HZ · IBM code page 1133 · KOI8 · TRON
+Related topics	
+control character (C0 C1) · CCSID · charset detection · Han unification · ISO 6429/IEC 6429/ANSI X3.64 · mojibake
+Categories: ASCII | Acronyms
+Log in / create accountArticleDiscussionReadEditView history
+
+Main page
+Contents
+Featured content
+Current events
+Random article
+Donate to Wikipedia
+Interaction
+Help
+About Wikipedia
+Community portal
+Recent changes
+Contact Wikipedia
+Toolbox
+Print/export
+Languages
+Alemannisch
+العربية
+Asturianu
+বাংলা
+Bân-lâm-gú
+Bosanski
+Български
+Català
+Česky
+Dansk
+Deutsch
+Eesti
+Ελληνικά
+Español
+Esperanto
+Euskara
+فارسی
+Français
+Gaeilge
+Galego
+Хальмг
+한국어
+हिन्दी
+Hrvatski
+Bahasa Indonesia
+Interlingua
+Italiano
+עברית
+Kurdî
+Latviešu
+Lëtzebuergesch
+Lietuvių
+Magyar
+मराठी
+Bahasa Melayu
+Монгол
+Nederlands
+नेपाल भाषा
+日本語
+‪Norsk (bokmål)‬
+‪Norsk (nynorsk)‬
+Plattdüütsch
+Polski
+Português
+Ripoarisch
+Română
+Русский
+Scots
+Shqip
+Simple English
+Slovenčina
+Slovenščina
+UTF-8
+From Wikipedia, the free encyclopedia
+UTF-8 (UCS[1] Transformation Format — 8-bit) is a multibyte character encoding for Unicode.  UTF-8 is like UTF-16 and UTF-32, because it can represent every character in the Unicode character set. But unlike UTF-16 and UTF-32, it possesses the advantages of being backward-compatible with ASCII. And it has the advantage of avoiding the complications of endianness and the resulting need to use byte order marks (BOM). For these and other reasons, UTF-8 has become the dominant character encoding for the World-Wide Web, accounting for more than half of all Web pages.[2][3]  The Internet Engineering Task Force (IETF) requires all Internet protocols to identify the encoding used for character data, and the supported character encodings must include UTF-8.[4]  The Internet Mail Consortium (IMC) recommends that all e‑mail programs be able to display and create mail using UTF-8.[5]  UTF-8 is also increasingly being used as the default character encoding in operating systems, programming languages, APIs, and software applications.
+UTF-8 encodes each of the 1,112,064[6] code points in the Unicode character set using one to four 8-bit bytes (termed “octets” in the Unicode Standard).  Code points with lower numerical values (i. e., earlier code positions in the Unicode character set, which tend to occur more frequently in practice) are encoded using fewer bytes,[7] making the encoding scheme reasonably efficient.  In particular, the first 128 characters of the Unicode character set, which correspond one-to-one with ASCII, are encoded using a single octet with the same binary value as the corresponding ASCII character, making valid ASCII text valid UTF-8-encoded Unicode text as well.
+The official IANA code for the UTF-8 character encoding is UTF-8.[8]
+Contents [hide]
+1 History
+2 Design
+3 Description
+3.1 Codepage layout
+3.2 Invalid byte sequences
+3.3 Invalid code points
+4 Official name and variants
+5 Derivatives
+5.1 CESU-8
+5.2 Modified UTF-8
+6 Byte order mark
+7 Advantages and disadvantages
+7.1 General
+7.1.1 Advantages
+7.1.2 Disadvantages
+7.2 Compared to single-byte encodings
+7.2.1 Advantages
+7.2.2 Disadvantages
+7.3 Compared to other multi-byte encodings
+7.3.1 Advantages
+7.3.2 Disadvantages
+7.4 Compared to UTF-16
+7.4.1 Advantages
+7.4.2 Disadvantages
+8 See also
+9 References
+10 External links
+[edit]History
+
+By early 1992 the search was on for a good byte-stream encoding of multi-byte character sets. The draft ISO 10646 standard contained a non-required annex called UTF that provided a byte-stream encoding of its 32-bit code points. This encoding was not satisfactory on performance grounds, but did introduce the notion that bytes in the ASCII range of 0–127 represent themselves in UTF, thereby providing backward compatibility.
+In July 1992, the X/Open committee XoJIG was looking for a better encoding. Dave Prosser of Unix System Laboratories submitted a proposal for one that had faster implementation characteristics and introduced the improvement that 7-bit ASCII characters would only represent themselves; all multibyte sequences would include only bytes where the high bit was set.
+In August 1992, this proposal was circulated by an IBM X/Open representative to interested parties. Ken Thompson of the Plan 9 operating system group at Bell Labs then made a crucial modification to the encoding to allow it to be self-synchronizing, meaning that it was not necessary to read from the beginning of the string to find code point boundaries. Thompson's design was outlined on September 2, 1992, on a placemat in a New Jersey diner with Rob Pike. The following days, Pike and Thompson implemented it and updated Plan 9 to use it throughout, and then communicated their success back to X/Open.[9]
+UTF-8 was first officially presented at the USENIX conference in San Diego, from January 25–29, 1993.
+The original specification allowed for sequences of up to six bytes, covering numbers up to 31 bits (the original limit of the Universal Character Set). In November 2003 UTF-8 was restricted by RFC 3629 to four bytes covering only the range U+0000 to U+10FFFF, in order to match the constraints of the UTF-16 character encoding.
+[edit]Design
+
+The design of UTF‑8 as originally proposed by Dave Prosser and subsequently modified by Ken Thompson was intended to satisfy two objectives:
+To be backward-compatible with ASCII; and
+To enable encoding of up to at least 231 characters (the theoretical limit of the first draft proposal for the Universal Character Set).
+Being backward-compatible with ASCII implied that every valid ASCII character (a 7-bit character set) also be a valid UTF‑8 character sequence, specifically, a one-byte UTF‑8 character sequence whose binary value equals that of the corresponding ASCII character:
+Bits	Last code point	Byte 1
+  7	U+007F	0xxxxxxx
+Prosser’s and Thompson’s challenge was to extend this scheme to handle code points with up to 31 bits.  The solution proposed by Prosser as subsequently modified by Thompson was as follows:
+Bits	Last code point	Byte 1	Byte 2	Byte 3	Byte 4	Byte 5	Byte 6
+  7	U+007F	0xxxxxxx
+11	U+07FF	110xxxxx	10xxxxxx
+16	U+FFFF	1110xxxx	10xxxxxx	10xxxxxx
+21	U+1FFFFF	11110xxx	10xxxxxx	10xxxxxx	10xxxxxx
+26	U+3FFFFFF	111110xx	10xxxxxx	10xxxxxx	10xxxxxx	10xxxxxx
+31	U+7FFFFFFF	1111110x	10xxxxxx	10xxxxxx	10xxxxxx	10xxxxxx	10xxxxxx
+The salient features of the above scheme are as follows:
+Every valid ASCII character is also a valid UTF‑8 encoded Unicode character with the same binary value.  (Thus, valid ASCII text is also valid UTF‑8-encoded Unicode text.)
+For every UTF‑8 byte sequence corresponding to a single Unicode character, the first byte unambiguously indicates the length of the sequence in bytes.
+All continuation bytes (byte nos. 2 – 6 in the table above) have 10 as their two most-significant bits (bits 7 – 6); in contrast, the first byte never has 10 as its two most-significant bits.  As a result, it is immediately obvious whether any given byte anywhere in a (valid) UTF‑8 stream represents the first byte of a byte sequence corresponding to a single character, or a continuation byte of such a byte sequence.
+As a consequence of no. 3 above, starting with any arbitrary byte anywhere in a (valid) UTF‑8 stream, it is necessary to back up by only at most five bytes in order to get to the beginning of the byte sequence corresponding to a single character (three bytes in actual UTF‑8 as explained in the next section).
+Starting with the second row in the table above (two bytes), every additional byte extends the maximum number of bits by five (six additional bits from the additional continuation byte, minus one bit lost in the first byte).
+Prosser’s and Thompson’s scheme was sufficiently general to be extended beyond 6-byte sequences (however, this would have allowed FE or FF bytes to occur in valid UTF-8 text — see under Advantages in section "Compared to single byte encodings" below — and indefinite extension would lose the desirable feature that the length of a sequence can be determined from the start byte only).
+[edit]Description
+
+UTF-8 is a variable-width encoding, with each character represented by one to four bytes. If the character is encoded by just one byte, the high-order bit is 0 and the other bits give the code value (in the range 0..127). If the character is encoded by a sequence of more than one byte, the first byte has as many leading '1' bits as the total number of bytes in the sequence, followed by a '0' bit, and the succeeding bytes are all marked by a leading "10" bit pattern. The remaining bits in the byte sequence are concatenated to form the Unicode code point value. Thus a byte with lead bit '0' is a single-byte code, a byte with multiple leading '1' bits is the first of a multi-byte sequence, and a byte with a leading "10" bit pattern is a continuation byte of a multi-byte sequence. The format of the bytes thus allows the beginning of each sequence to be detected without decoding from the beginning of the string.
+Code point range	Binary code point	UTF-8 bytes	Example
+U+0000 to
+U+007F	0xxxxxxx	0xxxxxxx	character '$' = code point U+0024
+= 00100100
+→ 00100100
+→ hexadecimal 24
+U+0080 to
+U+07FF	00000yyy yyxxxxxx	110yyyyy
+10xxxxxx	character '¢' = code point U+00A2
+= 00000000 10100010
+→ 11000010 10100010
+→ hexadecimal C2 A2
+U+0800 to
+U+FFFF	zzzzyyyy yyxxxxxx	1110zzzz
+10yyyyyy
+10xxxxxx	character '€' = code point U+20AC
+= 00100000 10101100
+→ 11100010 10000010 10101100
+→ hexadecimal E2 82 AC
+U+010000 to
+U+10FFFF	000wwwzz zzzzyyyy yyxxxxxx	11110www
+10zzzzzz
+10yyyyyy
+10xxxxxx	character '𤭢' = code point U+024B62
+= 00000010 01001011 01100010
+→ 11110000 10100100 10101101 10100010
+→ hexadecimal F0 A4 AD A2
+So the first 128 characters (US-ASCII) need one byte. The next 1,920 characters need two bytes to encode. This includes Latin letters with diacritics and characters from the Greek, Cyrillic, Coptic, Armenian, Hebrew, Arabic, Syriac and Tāna alphabets. Three bytes are needed for the rest of the Basic Multilingual Plane (which contains virtually all characters in common use). Four bytes are needed for characters in the other planes of Unicode, which include less common CJK characters and various historic scripts.
+[edit]Codepage layout
+UTF-8
+—0	—1	—2	—3	—4	—5	—6	—7	—8	—9	—A	—B	—C	—D	—E	—F
+ 
+0−
+ 	NUL
+0000
+0	SOH
+0001
+1	STX
+0002
+2	ETX
+0003
+3	EOT
+0004
+4	ENQ
+0005
+5	ACK
+0006
+6	BEL
+0007
+7	BS
+0008
+8	HT
+0009
+9	LF
+000A
+10	VT
+000B
+11	FF
+000C
+12	CR
+000D
+13	SO
+000E
+14	SI
+000F
+15
+ 
+1−
+ 	DLE
+0010
+16	DC1
+0011
+17	DC2
+0012
+18	DC3
+0013
+19	DC4
+0014
+20	NAK
+0015
+21	SYN
+0016
+22	ETB
+0017
+23	CAN
+0018
+24	EM
+0019
+25	SUB
+001A
+26	ESC
+001B
+27	FS
+001C
+28	GS
+001D
+29	RS
+001E
+30	US
+001F
+31
+ 
+2−
+ 	SP
+0020
+32	!
+0021
+33	"
+0022
+34	#
+0023
+35	$
+0024
+36	%
+0025
+37	&
+0026
+38	'
+0027
+39	(
+0028
+40	)
+0029
+41	*
+002A
+42	+
+002B
+43	,
+002C
+44	-
+002D
+45	.
+002E
+46	/
+002F
+47
+ 
+3−
+ 	0
+0030
+48	1
+0031
+49	2
+0032
+50	3
+0033
+51	4
+0034
+52	5
+0035
+53	6
+0036
+54	7
+0037
+55	8
+0038
+56	9
+0039
+57	:
+003A
+58	;
+003B
+59	<
+003C
+60	=
+003D
+61	>
+003E
+62	?
+003F
+63
+ 
+4−
+ 	@
+0040
+64	A
+0041
+65	B
+0042
+66	C
+0043
+67	D
+0044
+68	E
+0045
+69	F
+0046
+70	G
+0047
+71	H
+0048
+72	I
+0049
+73	J
+004A
+74	K
+004B
+75	L
+004C
+76	M
+004D
+77	N
+004E
+78	O
+004F
+79
+ 
+5−
+ 	P
+0050
+80	Q
+0051
+81	R
+0052
+82	S
+0053
+83	T
+0054
+84	U
+0055
+85	V
+0056
+86	W
+0057
+87	X
+0058
+88	Y
+0059
+89	Z
+005A
+90	[
+005B
+91	\
+005C
+92	]
+005D
+93	^
+005E
+94	_
+005F
+95
+ 
+6−
+ 	`
+0060
+96	a
+0061
+97	b
+0062
+98	c
+0063
+99	d
+0064
+100	e
+0065
+101	f
+0066
+102	g
+0067
+103	h
+0068
+104	i
+0069
+105	j
+006A
+106	k
+006B
+107	l
+006C
+108	m
+006D
+109	n
+006E
+110	o
+006F
+111
+ 
+7−
+ 	p
+0070
+112	q
+0071
+113	r
+0072
+114	s
+0073
+115	t
+0074
+116	u
+0075
+117	v
+0076
+118	w
+0077
+119	x
+0078
+120	y
+0079
+121	z
+007A
+122	{
+007B
+123	|
+007C
+124	}
+007D
+125	~
+007E
+126	DEL
+007F
+127
+ 
+8−
+ 	•
++00
+128	•
++01
+129	•
++02
+130	•
++03
+131	•
++04
+132	•
++05
+133	•
++06
+134	•
++07
+135	•
++08
+136	•
++09
+137	•
++0A
+138	•
++0B
+139	•
++0C
+140	•
++0D
+141	•
++0E
+142	•
++0F
+143
+ 
+9−
+ 	•
++10
+144	•
++11
+145	•
++12
+146	•
++13
+147	•
++14
+148	•
++15
+149	•
++16
+150	•
++17
+151	•
++18
+152	•
++19
+153	•
++1A
+154	•
++1B
+155	•
++1C
+156	•
++1D
+157	•
++1E
+158	•
++1F
+159
+ 
+A−
+ 	•
++20
+160	•
++21
+161	•
++22
+162	•
++23
+163	•
++24
+164	•
++25
+165	•
++26
+166	•
++27
+167	•
++28
+168	•
++29
+169	•
++2A
+170	•
++2B
+171	•
++2C
+172	•
++2D
+173	•
++2E
+174	•
++2F
+175
+ 
+B−
+ 	•
++30
+176	•
++31
+177	•
++32
+178	•
++33
+179	•
++34
+180	•
++35
+181	•
++36
+182	•
++37
+183	•
++38
+184	•
++39
+185	•
++3A
+186	•
++3B
+187	•
++3C
+188	•
++3D
+189	•
++3E
+190	•
++3F
+191
+ 
+C−
+ 	2
+
+192	2
+
+193	2
+0080
+194	2
+00C0
+195	2
+0100
+196	2
+0140
+197	2
+0180
+198	2
+01C0
+199	2
+0200
+200	2
+0240
+201	2
+0280
+202	2
+02C0
+203	2
+0300
+204	2
+0340
+205	2
+0380
+206	2
+03C0
+207
+ 
+D−
+ 	2
+0400
+208	2
+0440
+209	2
+0480
+210	2
+04C0
+211	2
+0500
+212	2
+0540
+213	2
+0580
+214	2
+05C0
+215	2
+0600
+216	2
+0640
+217	2
+0680
+218	2
+06C0
+219	2
+0700
+220	2
+0740
+221	2
+0780
+222	2
+07C0
+223
+ 
+E−
+ 	3
+0800
+224	3
+1000
+225	3
+2000
+226	3
+3000
+227	3
+4000
+228	3
+5000
+229	3
+6000
+230	3
+7000
+231	3
+8000
+232	3
+9000
+233	3
+A000
+234	3
+B000
+235	3
+C000
+236	3
+D000
+237	3
+E000
+238	3
+F000
+239
+ 
+F−
+ 	4
+10000
+240	4
+40000
+241	4
+80000
+242	4
+C0000
+243	4
+100000
+244	4
+140000
+245	4
+180000
+246	4
+1C0000
+247	5
+200000
+248	5
+1000000
+249	5
+2000000
+250	5
+3000000
+251	6
+4000000
+252	6
+40000000
+253	
+
+254	
+
+255
+Legend: Yellow cells are control characters, blue cells are punctuation, purple cells are numbers and green cells are ASCII letters.
+Orange cells with a large dot are continuation bytes. The hexadecimal number shown after a "+" plus sign is the value of the 6 bits they add.
+White cells containing a large single-digit number are the start bytes for a sequence of that many bytes. The unbolded hexadecimal code point number shown in the cell is the lowest character value encoded using that start byte (this value can be greater than the value which would be obtained by following the start byte with continuation bytes which are all 128 (hex 0x80), if this would result in an invalid overlong form).
+Red cells must never appear in a valid UTF-8 sequence. The first two could only be used for overlong encoding of basic ASCII characters. The remaining red cells indicate start bytes of sequences that could only encode numbers larger than the 0x10FFFF limit of Unicode. The byte 244 (hex 0xF4) could also encode some values greater than 0x10FFFF; such a sequence is also invalid.
+[edit]Invalid byte sequences
+Not all sequences of bytes are valid UTF-8. A UTF-8 decoder should be prepared for:
+the red invalid bytes in the above table
+an unexpected continuation byte
+a start byte not followed by enough continuation bytes
+a sequence that decodes to a value that should use a shorter sequence (an "overlong form").
+Many earlier decoders would happily try to decode these. Carefully crafted invalid UTF-8 could make them either skip or create ASCII characters such as NUL, slash, or quotes. Invalid UTF-8 has been used to bypass security validations in high profile products including Microsoft's IIS web server.[10]
+RFC 3629 states "Implementations of the decoding algorithm MUST protect against decoding invalid sequences."[11] The Unicode Standard requires decoders to "...treat any ill-formed code unit sequence as an error condition. This guarantees that it will neither interpret nor emit an ill-formed code unit sequence." Many UTF-8 decoders throw an exception if a string has an error in it. One example was Python 3.0 which would exit immediately if the command line had invalid UTF-8 in it.[12] In some cases, though, being unable to work with data means you cannot even try to fix it. Another option is to translate the first byte to a replacement and continue parsing with the next byte. Popular replacements are:
+The replacement character '�' (U+FFFD)
+The symbol for substitute '␦' (U+2426) (ISO 2047)
+The '?' or '¿' character (U+003F or U+00BF)
+The invalid Unicode code points U+DC80..U+DCFF where the low 8 bits are the byte's value.
+Interpret the bytes according to another encoding (often ISO-8859-1 or CP1252).
+Replacing errors is "lossy": more than one UTF-8 string converts to the same Unicode result. Therefore the original UTF-8 should be stored, and translation should only be used when displaying the text to the user.
+[edit]Invalid code points
+UTF-8 may only legally be used to encode valid Unicode scalar values. According to the Unicode standard the high and low surrogate halves used by UTF-16 (U+D800 through U+DFFF) and values above U+10FFFF are not legal Unicode values, and the UTF-8 encoding of them is an invalid byte sequence and should be treated as described above.
+Whether an actual application should do this with surrogate halves is debatable. Allowing them allows lossless storage of invalid UTF-16, and allows CESU encoding (described below) to be decoded. There are other code points that are far more important to detect and reject, such as the reversed-BOM U+FFFE, or the C1 controls, caused by improper conversion of CP1252 text or double-encoding of UTF-8. These are invalid in HTML.
+[edit]Official name and variants
+
+The official name is "UTF-8". All letters are upper-case, and the name is hyphenated. This spelling is used in all the documents relating to the encoding.
+Alternatively, the name "utf-8" may be used by all standards conforming to the Internet Assigned Numbers Authority (IANA) list (which include CSS, HTML, XML, and HTTP headers),[13] as the declaration is case insensitive.[14]
+Other descriptions that omit the hyphen or replace it with a space, such as "utf8" or "UTF 8", are not accepted as correct by any standard[citation needed]. Despite this, most agents such as browsers can understand them.
+MySQL omits the hyphen in the following query:
+SET NAMES 'utf8'
+[edit]Derivatives
+
+The following implementations show slight differences from the UTF-8 specification. They are incompatible with the UTF-8 specification.
+[edit]CESU-8
+Main article: CESU-8
+Many pieces of software added UTF-8 conversions for UCS-2 data and did not alter their UTF-8 conversion when UCS-2 was replaced with the surrogate-pair supporting UTF-16. The result is that each half of a UTF-16 surrogate pair is encoded as its own 3-byte UTF-8 encoding, resulting in 6-byte sequences rather than 4 for characters outside the Basic Multilingual Plane. Oracle databases use this, as well as Java and Tcl as described below, and probably a great deal of other Windows software where the programmers were unaware of the complexities of UTF-16. Although most usage is by accident, a supposed benefit is that this preserves UTF-16 binary sorting order when CESU-8 is binary sorted.
+[edit]Modified UTF-8
+In Modified UTF-8,[15] the null character (U+0000) is encoded as 0xC0,0x80; this is not valid UTF-8[16] because it is not the shortest possible representation. Modified UTF-8 strings never contain any actual null bytes but can contain all Unicode code points including U+0000,[17] which allows such strings (with a null byte appended) to be processed by the traditional ASCIIZ string functions.
+All known Modified UTF-8 implementations also treat the surrogate pairs as in CESU-8.
+In normal usage, the Java programming language supports standard UTF-8 when reading and writing strings through InputStreamReader and OutputStreamWriter. However it uses Modified UTF-8 for object serialization,[18] for the Java Native Interface,[19] and for embedding constant strings in class files.[20] Tcl also uses the same modified UTF-8[21] as Java for internal representation of Unicode data, but uses strict CESU-8 for external data.
+[edit]Byte order mark
+
+Many Windows programs (including Windows Notepad) add the bytes 0xEF, 0xBB, 0xBF at the start of any document saved as UTF-8. This is the UTF-8 encoding of the Unicode byte order mark (BOM), and is commonly referred to as a UTF-8 BOM, even though it is not relevant to byte order. The BOM can also appear if another encoding with a BOM is translated to UTF-8 without stripping it.
+The presence of the UTF-8 BOM may cause interoperability problems with existing software that could otherwise handle UTF-8; for example:
+Older text editors may display the BOM as "ï»¿" at the start of the document, even if the UTF-8 file contains only ASCII and would otherwise display correctly.
+Programming language parsers not explicitly designed for UTF-8 can often handle UTF-8 in string constants and comments, but cannot parse the BOM at the start of the file.
+Programs that identify file types by leading characters may fail to identify the file if a BOM is present even if the user of the file could skip the BOM. Or conversely they will identify the file when the user cannot handle the BOM. An example is the Unix shebang syntax.
+Programs that insert information at the start of a file will result in a file with the BOM somewhere in the middle of it (this is also a problem with the UTF-16 BOM). One example is offline browsers that add the originating URL to the start of the file.
+If compatibility with existing programs is not important, the BOM could be used to identify if a file is in UTF-8 versus a legacy encoding, but this is still problematic, due to many instances where the BOM is added or removed without actually changing the encoding, or various encodings are concatenated together. Checking if the text is valid UTF-8 is more reliable than using BOM.
+[edit]Advantages and disadvantages
+
+
+This section needs additional citations for verification.
+Please help improve this article by adding reliable references. Unsourced material may be challenged and removed. (October 2009)
+[edit]General
+[edit]Advantages
+The ASCII characters are represented by themselves as single bytes that do not appear anywhere else, which makes UTF-8 work with the majority of existing APIs that take bytes strings but only treat a small number of ASCII codes specially. This removes the need to write a new Unicode version of every API, and makes it much easier to convert existing systems to UTF-8 than any other Unicode encoding.
+UTF-8 is the only encoding for XML entities that does not require a BOM or an indication of the encoding.[22]
+UTF-8 and UTF-16 are the standard encodings for Unicode text in HTML documents, with UTF-8 as the preferred and most used encoding.
+UTF-8 strings can be fairly reliably recognized as such by a simple heuristic algorithm.[23] The chance of a random string of bytes being valid UTF-8 and not pure ASCII is 3.9% for a two-byte sequence, 0.41% for a three-byte sequence and 0.026% for a four-byte sequence.[24] ISO/IEC 8859-1 is even less likely to be mis-recognized as UTF-8: the only non-ASCII characters in it would have to be in sequences starting with either an accented letter or the multiplication symbol and ending with a symbol. This is an advantage that most other encodings do not have, causing errors (mojibake) if the receiving application isn't told and can't guess the correct encoding. Even UTF-16 can be mistaken for other encodings (like in the bush hid the facts bug).
+Sorting of UTF-8 strings as arrays of unsigned bytes will produce the same results as sorting them based on Unicode code points.
+Other byte-based encodings can pass through the same API. This means, however, that the encoding must be identified. Because the other encodings are unlikely to be valid UTF-8, a reliable way to implement this is to assume UTF-8 and switch to a legacy encoding only if several invalid UTF-8 byte sequences are encountered.
+[edit]Disadvantages
+A UTF-8 parser that is not compliant with current versions of the standard might accept a number of different pseudo-UTF-8 representations and convert them to the same Unicode output. This provides a way for information to leak past validation routines designed to process data in its eight-bit representation.[25]
+[edit]Compared to single-byte encodings
+[edit]Advantages
+UTF-8 can encode any Unicode character, avoiding the need to figure out and set a "code page" or otherwise indicate what character set is in use, and allowing output in multiple languages at the same time. For many languages there has been more than one single-byte encoding in usage, so even knowing the language was insufficient information to display it correctly.
+The bytes 0xfe and 0xff do not appear, so a valid UTF-8 stream never matches the UTF-16 byte order mark and thus cannot be confused with it. The absence of 0xFF (\377) also eliminates the need to escape this byte in Telnet (and FTP control connection).
+[edit]Disadvantages
+UTF-8 encoded text is larger than the appropriate single-byte encoding except for plain ASCII characters. In the case of languages which used 8-bit character sets with non-Latin alphabets encoded in the upper half (such as most Cyrillic and Greek alphabet code pages), letters in UTF-8 will be double the size. For some languages such as Hindi's Devanagari and Thai, letters will be triple the size (this has caused objections in India and other countries).
+It is possible in UTF-8 (or any other multi-byte encoding) to split a string in the middle of a character, which may result in an invalid string if the pieces are not concatenated later.
+If the code points are all the same size, measurements of a fixed number of them is easy. Due to ASCII-era documentation where "character" is used as a synonym for "byte" this is often considered important. However, by measuring string positions using bytes instead of "characters" most algorithms can be easily and efficiently adapted for UTF-8[citation needed].
+[edit]Compared to other multi-byte encodings
+[edit]Advantages
+UTF-8 uses the codes 0-127 only for the ASCII characters.
+UTF-8 can encode any Unicode character. Files in different languages can be displayed correctly without having to choose the correct code page or font. For instance Chinese and Arabic can be in the same text without special codes inserted to switch the encoding.
+UTF-8 is "self-synchronizing": character boundaries are easily found when searching either forwards or backwards. If bytes are lost due to error or corruption, one can always locate the beginning of the next character and thus limit the damage. Many multi-byte encodings are much harder to resynchronize.
+Any byte oriented string searching algorithm can be used with UTF-8 data, since the sequence of bytes for a character cannot occur anywhere else. Some older variable-length encodings (such as Shift JIS) did not have this property and thus made string-matching algorithms rather complicated.
+Efficient to encode using simple bit operations. UTF-8 does not require slower mathematical operations such as multiplication or division (unlike the obsolete UTF-1 encoding).
+[edit]Disadvantages
+For certain languages UTF-8 will take more space than an older multi-byte encoding. East Asian scripts generally have two bytes per character in their multi-byte encodings yet take three bytes per character in UTF-8.
+[edit]Compared to UTF-16
+[edit]Advantages
+A text byte stream cannot be losslessly converted to UTF-16, due to the possible presence of errors in the byte stream encoding. This causes unexpected and often severe problems attempting to use existing data in a system that uses UTF-16 as an internal encoding. Results are security bugs, DoS if bad encoding throws an exception, and data loss when different byte streams convert to the same UTF-16. Due to the ASCII compatibility and high degree of pattern recognition in UTF-8, random byte streams can be passed losslessly through a system using it, as interpretation can be deferred until display.
+Converting to UTF-16 while maintaining compatibility with existing programs (such as was done with Windows) requires every API and data structure that takes a string to be duplicated. Invalid encodings make the duplicated APIs not exactly map to each other, often making it impossible to do some action with one of them.
+Characters outside the basic multilingual plane are not a special case. UTF-16 is often mistaken to be the obsolete constant-length UCS-2 encoding, leading to code that works for most text but suddenly fails for non-BMP characters.[26]
+Text encoded in UTF-8 is often smaller than (or the same size as) the same text encoded in UTF-16.
+This is always true for text using only code points below U+0800 (which includes all modern European languages), as each code point's UTF-8 encoding is one or two bytes then.
+Even if text contains code points not below U+0800, it might contain so many code points below U+0080 (which UTF-8 encodes in one byte) that the UTF-8 encoding is still smaller. As HTML markup and line terminators are code points below U+0080, most HTML source is smaller if encoded in UTF-8 even for Asian scripts.
+Most communication and storage was designed for a stream of bytes. A UTF-16 string must use a pair of bytes for each code unit:
+The order of those two bytes becomes an issue and must be added to the protocol, such as with a byte order mark.
+If a byte is missing from UTF-16, the whole rest of the string will be meaningless text.
+[edit]Disadvantages
+A simplistic parser for UTF-16 is unlikely[citation needed] to convert invalid sequences to ASCII. Since the dangerous characters in most situations are ASCII, a simplistic UTF-16 parser is much less dangerous than a simplistic UTF-8 parser.
+Characters U+0800 through U+FFFF use three bytes in UTF-8, but only two in UTF-16. As a result, text in (for example) Chinese, Japanese or Hindi could take more space in UTF-8 if there are more of these characters than there are ASCII characters. This happens for pure text,[27] but rarely for HTML documents. For example, both the Japanese UTF-8 and the Hindi Unicode article on Wikipedia take more space if saved as UTF-16 than the original UTF-8 version.[28]
+In UCS-2 (but not UTF-16) Unicode code points are all the same size, making measurements of a fixed number of them easy. Due to ASCII-era documentation where "character" is used as a synonym for "byte" this is often considered important. Most UTF-16 implementations, including Windows, measure UTF-16 non-BMP characters as 2 units, as this is the only practical way to handle the strings. The same applies to UTF-8.
+[edit]See also
+
+Alt code
+ASCII
+Byte order mark
+Character encodings in HTML
+Comparison of e-mail clients#Features
+Comparison of Unicode encodings
+GB 18030
+Iconv—a standardized API used to convert between different character encodings
+ISO/IEC 8859
+Specials (Unicode block)
+Unicode and e-mail
+Unicode and HTML
+Universal Character Set
+UTF-8 in URIs
+UTF-9 and UTF-18
+UTF-16/UCS-2
+[edit]References
+
+^ [|The Unicode Consortium], "Chapter 2. General Structure", The Unicode Standard (6.0 ed.), Mountain View, California, USA: The Unicode Consortium, ISBN 978-1-936213-01-6.  RFC 3629 also refers to UTF-8 as “UCS transformation format.”  Also commonly known as “Unicode Transformation Format.”
+^ Mark Davis (28 January 2010). "Unicode nearing 50% of the web". Official Google Blog. Google. Retrieved 5 December 2010.
+^ "Usage of character encodings for websites". W3Techs. Retrieved 2010-03-30.
+^ Alvestrand, H. (1998). "IETF Policy on Character Sets and Languages". RFC 2277. Internet Engineering Task Force.
+^ "Using International Characters in Internet Mail". Internet Mail Consortium. August 1, 1998. Retrieved 2007-11-08.
+^ Not all of the 1,112,064 possible code points have been assigned characters; many are reserved for future use, and some are reserved for private use, while still others are specified as permanently undefined.
+^ More precisely, the number of bytes used to encode a character at a given code point is a monotonically increasing function of the numerical value of the code point.
+^ Internet Assigned Numbers Authority (4 November 2010). "CHARACTER SETS". IANA. Retrieved 5 December 2010.
+^ Pike, Rob (2003-04-03). "UTF-8 history".
+^ Marin, Marvin (2000-10-17). "Web Server Folder Traversal MS00-078".
+^ Yergeau, F. (2003). "UTF-8, a transformation format of ISO 10646". RFC 3629. Internet Engineering Task Force
+^ "Non-decodable Bytes in System Character Interfaces".
+^ W3C: Setting the HTTP charset parameter notes that the IANA list is used for HTTP
+^ Internet Assigned Numbers Authority Character Sets
+^ "Java SE 6 documentation for Interface java.io.DataInput, subsection on Modified UTF-8". Sun Microsystems. 2008. Retrieved 2009-05-22.
+^ "[...] the overlong UTF-8 sequence C0 80 [...]", "[...] the illegal two-octet sequence C0 80 [...]""Request for Comments 3629: "UTF-8, a transformation format of ISO 10646"". 2003. Retrieved 2009-05-22.
+^ "[...] Java virtual machine UTF-8 strings never have embedded nulls.""The Java Virtual Machine Specification, 2nd Edition, section 4.4.7: "The CONSTANT_Utf8_info Structure"". Sun Microsystems. 1999. Retrieved 2009-05-24.
+^ "[...] encoded in modified UTF-8.""Java Object Serialization Specification, chapter 6: Object Serialization Stream Protocol, section 2: Stream Elements". Sun Microsystems. 2005. Retrieved 2009-05-22.
+^ "The JNI uses modified UTF-8 strings to represent various string types.""Java Native Interface Specification, chapter 3: JNI Types and Data Structures, section: Modified UTF-8 Strings". Sun Microsystems. 2003. Retrieved 2009-05-22.
+^ "[...] differences between this format and the "standard" UTF-8 format.""The Java Virtual Machine Specification, 2nd Edition, section 4.4.7: "The CONSTANT_Utf8_info Structure"". Sun Microsystems. 1999. Retrieved 2009-05-23.
+^ "In orthodox UTF-8, a NUL byte(\x00) is represented by a NUL byte. [...] But [...] we [...] want NUL bytes inside [...] strings [...]""Tcler's Wiki: UTF-8 bit by bit (Revision 6)". 2009-04-25. Retrieved 2009-05-22.
+^ W3.org
+^ W3 FAQ: Multilingual Forms: a Perl regular expression to validate a UTF-8 string)
+^ There are 256 × 256 − 128 × 128 not-pure-ASCII two-byte sequences, and of those, only 1920 encode valid UTF-8 characters (the range U+0080 to U+07FF), so the proportion of valid not-pure-ASCII two-byte sequences is 3.9%. Similarly, there are 256 × 256 × 256 − 128 × 128 × 128 not-pure-ASCII three-byte sequences, and 61,406 valid three-byte UTF-8 sequences (U+000800 to U+00FFFF minus surrogate pairs and non-characters), so the proportion is 0.41%; finally, there are 2564 − 1284 non-ASCII four-byte sequences, and 1,048,544 valid four-byte UTF-8 sequences (U+010000 to U+10FFFF minus non-characters), so the proportion is 0.026%. Note that this assumes that control characters pass as ASCII; without the control characters, the percentage proportions drop somewhat).
+^ Tools.ietf.org
+^ "Should UTF-16 be considered harmful?". Stackoverflow.com. Retrieved 2010-09-13.
+^ Not very big difference. For the version from 2010-11-22 of hi:यूनिकोड (Unicode in Hindi), when the pure text was copied, pasted to notepad, and saved as UTF-16 that needed 19 kb, while UTF-8 needed 22 kb.
+^ The version from 2010-10-27 of ja:UTF-8 needed 169 kb when converted to UTF-16 (with notepad) and 101 kb when converted again to UTF-8. For the 2010-11-22 version of hi:यूनिकोड (Unicode in Hindi) UTF-16 needs 119 kb and UTF-8 needs 76 kb.
+[edit]External links
+
+There are several current definitions of UTF-8 in various standards documents:
+RFC 3629 / STD 63 (2003), which establishes UTF-8 as a standard Internet protocol element
+The Unicode Standard, Version 5.0, §3.9 D92, §3.10 D95 (2007)
+The Unicode Standard, Version 4.0, §3.9–§3.10 (2003)
+ISO/IEC 10646:2003 Annex D (2003)
+They supersede the definitions given in the following obsolete works:
+ISO/IEC 10646-1:1993 Amendment 2 / Annex R (1996)
+The Unicode Standard, Version 2.0, Appendix A (1996)
+RFC 2044 (1996)
+RFC 2279 (1998)
+The Unicode Standard, Version 3.0, §2.3 (2000) plus Corrigendum #1 : UTF-8 Shortest Form (2000)
+Unicode Standard Annex #27: Unicode 3.1 (2001)
+They are all the same in their general mechanics, with the main differences being on issues such as allowed range of code point values and safe handling of invalid input.
+Original UTF-8 paper (or pdf) for Plan 9 from Bell Labs
+RFC 5198 defines UTF-8 NFC for Network Interchange
+UTF-8 test pages by Andreas Prilop, Jost Gippert and the World Wide Web Consortium
+How to configure e-mail clients to send UTF-8 text
+Unix/Linux: UTF-8/Unicode FAQ, Linux Unicode HOWTO, UTF-8 and Gentoo
+The Unicode/UTF-8-character table displays UTF-8 in a variety of formats (with Unicode and HTML encoding information)
+Online Tool for URL Encoding/Decoding according to RFC 3986 / RFC 3629(JavaScript, GPL)
+Unicode and Multilingual Web Browsers from Alan Wood's Unicode Resources describes support and additional configuration of Unicode/UTF-8 in modern browsers
+JSP Wiki Browser Compatibility page details specific problems with UTF-8 in older browsers
+Mathematical Symbols in Unicode
+Graphical View of UTF-8 in ICU's Converter Explorer
+[show]v · d · eUnicode
+[show]v · d · eCharacter encodings
+Categories: Character sets | Encodings | Character encoding | Unicode Transformation Formats
+Log in / create accountArticleDiscussionReadEditView history
+
+Main page
+Contents
+Featured content
+Current events
+Random article
+Donate to Wikipedia
+Interaction
+Help
+About Wikipedia
+Community portal
+Recent changes
+Contact Wikipedia
+Toolbox
+Print/export
+Languages
+العربية
+Català
+Česky
+Dansk
+Deutsch
+Ελληνικά
+Español
+Esperanto
+فارسی
+Français
+한국어
+Hrvatski
+Italiano
+עברית
+Latviešu
+Lietuvių
+Magyar
+മലയാളം
+Bahasa Melayu
+Nederlands
+日本語
+  Zlepšete obsah české Wikipedie a získejte netbook a další ceny!
+UTF-8
+UTF-8 je zkratka pro UCS Transformation Format. Je to způsob kódování řetězců znaků Unicode/UCS do sekvencí bajtů. Varianta UTF-16 kóduje řetězce do posloupností 16bitových slov (2 bajty), Varianta UTF-32 do 32 bitových slov (4 bajty). UTF-8 je definováno v ISO 10646-1:2000 Annex D, v RFC 3629 a v Unicode 4.0.
+Obsah [skrýt]
+1 Důvody vzniku, základní vlastnosti
+2 Způsob kódování znaků
+3 BOM
+4 Související články
+[editovat]Důvody vzniku, základní vlastnosti
+
+Přirozené kódování znaků Unicode/UCS do 2 nebo 4 bajtů se nazývá UCS-2/UTF-16 a UCS-4/UTF-32. Pokud se nespecifikuje jinak, ukládá se nejprve nejvýznamnější bajt (tzv. konvence big-endian). S řetězci uloženými ve formátu UCS-2 nebo UCS-4 je spojeno několik problémů:
+UCS-2 a UCS-4 nejsou zpětně kompatibilní s formátem ASCII
+Nejednoznačnost interpretace kvůli neurčené endianitě
+Uložení textu v latince je několikanásobně náročnější na paměť.
+Některé bajty v řetězci mohou obsahovat binární nuly, které mají zvláštní význam v některých programovacích jazycích.
+Některé bajty mohou obsahovat znaky, které mají zvláštní význam pro operační systém (např. „/“, „\“).
+Z uvedených důvodů nejsou formáty UCS-2 a UCS-4 vhodné pro ukládání do souborů.
+Tyto problémy řeší kódování UTF-8, které má následující vlastnosti:
+UCS znaky U+0000 až U+007F jsou kódovány jednoduše jako bajt 0x00 až 0x7F. To znamená, že řetězce obsahující pouze ASCII znaky mají shodné kódování v UTF-8 i v ASCII.
+Všechny znaky větší než U+007F jsou kódovány jako sekvence několika bajtů, z nichž každý má nastaven nejvyšší bit na jedničku. To znamená, že bajty nemohou být zaměněny s žádným ASCII znakem.
+První bajt sekvence, která reprezentuje ne-ASCII znak, je vždy v rozsahu 0xC0 až 0xFD a určuje, kolik bajtů následuje. Všechny následující znaky sekvence jsou v rozsahu 0x80 až 0xBF. To umožňuje snadnou synchronizaci a odolnost proti ztrátě některých bajtů.
+Může být kódován celý rozsah UCS 231 znaků.
+Zakódované znaky mohou být až 6 bajtů dlouhé, ale základní 16bitové znaky BMP (basic multilingual plane) jsou jen 1 až 3 bajty dlouhé.
+Pořadí big-endian (nejvýznamnější byte ukládán jako první) je zachováno.
+Bajty s hodnotou 0xFE a 0xFF nejsou nikdy použity.
+Při respektování rfc3629 se z UTF-8 využijí max. 4bajtové sekvence.
+[editovat]Způsob kódování znaků
+
+Následující tabulka ukazuje způsob kódování. Pozice bitů „xxx“ jsou vyplněny bity kódu znaku, vpravo jsou nejméně významné bity. Pro kód znaku musí být použita nejkratší možná sekvence bajtů. Počet jedničkových bitů na začátku prvního bajtu ve vícebajtové sekvenci odpovídá počtu bajtů sekvence. Podle standardu je legální UTF-8 znak definován maximálně čtyřmi bajty.
+U+00000000 - U+0000007F	0xxxxxxx
+U+00000080 - U+000007FF	110xxxxx 10xxxxxx
+U+00000800 - U+0000FFFF	1110xxxx 10xxxxxx 10xxxxxx
+U+00010000 - U+001FFFFF	11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
+[editovat]BOM
+
+	Bylo navrženo, aby byl článek rozdělen a aby byla tato kapitola přenesena do nového článku s názvem Byte-Order Mark. (diskuse)
+BOM
+(hexa)	Velikost
+prostoru Unicode	Kódování	velikost
+atomu (B)	počet
+atomů	maximální
+délka znaku (B)
+00 00 FE FF	32b, větší než BMP	Unicode-32, big-endian	2B	2	4B = 32b
+FF FE 00 00	32b, větší než BMP	Unicode-32, little-endian	2B	2	4B = 32b
+?? ?? ?? ?? ?? ??	32b, větší než BMP	UTF-16	2B = 16b	1, 2 nebo 3	6B
+EF BB BF ??	24?b	UTF-8, rozšíření	1B	až 4	4B
+FE FF	16b, právě BMP	Unicode-16, big-endian	2B	1	2B = 16b
+FF FE	16b, právě BMP	Unicode-16, little-endian	2B	1	2B = 16b
+EF BB BF	16b, právě BMP	UTF-8	1B = 8b	1, 2 nebo 3	3B
+-	8b, menší než BMP	ASCII + code page	-	-	1B
+-	7b, menší než BMP	ASCII	-	-	7b
+Znak s kódem U+FEFF (v desítkové soustavě 65279) se nazývá BOM (Byte-Order Mark, česky přibližně „označení pořadí bajtů“), někdy také „UTF signatura“. V kódování UTF-8 je tento znak reprezentován trojicí bajtů 0xEF 0xBB 0xBF, v kódování UTF-16 big-endian dvojicí bajtů 0xFE 0xFF a v UTF-16 little-endian 0xFF 0xFE. Grafický význam znaku je „nedělitelná mezera nulové šířky“ (zero-width no-break space), je tak podobný znaku U+2060 (word joiner). [1] Hlavním důvodem užití tohoto znaku je rozlišení pořadí ukládání bajtů big-endian nebo little-endian v UTF-16 a odlišení samotného UTF-16 od UTF-8. V případě záměny pořadí bajtů není znak U+FFFE platný Unicode znak, navíc v kódování UTF-8 se bajty 0xFE a 0xFF nesmí vyskytovat. Užití BOM v UTF-8 je pro účel rozpoznání pořadí ukládání bajtů nadbytečné, nicméně množství aplikací operačního systému Microsoft Windows používá tento znak na začátku souboru pro rozlišení souborů uložených ve formátu UTF-8. V některých systémech (POSIX) není tato signatura používána a může být zdrojem problémů.
+[editovat]Související články
+
+CESU-8
+Unicode
+Kategorie: Unicode | Kódování znaků
+Přihlášení / vytvoření účtuČlánekDiskuseČístEditovatZobrazit historii
+
+Hlavní strana
+Portál Wikipedie
+Aktuality
+Pod lípou
+Poslední změny
+Náhodný článek
+Nápověda
+Podpořte Wikipedii
+Tisk/export
+Vytvořit knihu
+Stáhnout jako PDF
+Verze k tisku
+Nástroje
+V jiných jazycích
+العربية
+Català
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Suomi
+Français
+עברית
+Hrvatski
+Magyar
+Italiano
+日本語
+한국어
+Lietuvių
+Latviešu
+മലയാളം
+Bahasa Melayu
+Nederlands
+‪Norsk (nynorsk)‬
+‪Norsk (bokmål)‬
+Polski
+Português
+Русский
+Slovenčina
+Slovenščina
+Српски / Srpski
+Svenska
+Türkçe
+Українська
+Tiếng Việt
+中文
+Stránka byla naposledy editována 6. 10. 2010 v 10:01.
+Text je dostupný pod licencí Creative Commons Uveďte autora – Zachovejte licenci 3.0 Unported, případně za dalších podmínek. Podrobnosti naleznete na stránce Podmínky užití.
+Ochrana osobních údajůO WikipediiVyloučení odpovědnosti 
+‪Norsk (bokmål)‬
+‪Norsk (nynorsk)‬
+Polski
+Português
+Русский
+Slovenčina
+Slovenščina
+Српски / Srpski
+Suomi
+Svenska
+Türkçe
+Українська
+Tiếng Việt
+中文
+This page was last modified on 5 March 2011 at 05:45.
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. See Terms of Use for details.
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Contact us
+Privacy policyAbout WikipediaDisclaimers 
+کوردی
+Српски / Srpski
+Suomi
+Svenska
+Taqbaylit
+ไทย
+Türkçe
+Українська
+اردو
+Tiếng Việt
+Yorùbá
+中文
+This page was last modified on 5 March 2011 at 00:03.
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. See Terms of Use for details.
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Contact us
+Privacy policyAbout WikipediaDisclaimers 
+Slovenčina
+Slovenščina
+Shqip
+Српски / Srpski
+Svenska
+ไทย
+Türkçe
+Українська
+اردو
+Tiếng Việt
+Хальмг
+Yorùbá
+中文
+Bân-lâm-gú
+Stránka byla naposledy editována 14. 1. 2011 v 17:18.
+Text je dostupný pod licencí Creative Commons Uveďte autora – Zachovejte licenci 3.0 Unported, případně za dalších podmínek. Podrobnosti naleznete na stránce Podmínky užití.
+Ochrana osobních údajůO WikipediiVyloučení odpovědnosti 
+
+
+ 
+Compare Ereaders Here
+
+Link2Me Hosting
+
+All Conversions
+
+Link2Me Link Exchange
+
+Treadmill Running Machines
+Copyright © http://www.asciitable.com 2010
